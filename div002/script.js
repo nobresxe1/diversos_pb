@@ -16,11 +16,9 @@ var conceito = ''
 if (media >= 8) {
     conceito = 'ótimo'
 
-
 }
 else if (media >= 6.5) {
     conceito = 'bom'
-
 
 }
 else {
