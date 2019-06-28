@@ -1,6 +1,7 @@
-var nota01 = 10.0
+var nota01 = 7.0
 var nota02 = 7.0
 var nota03 = 9.0
+
 
 var media = (nota01 + nota02 + nota03) / 3;
 
@@ -25,7 +26,9 @@ else {
     conceito = 'regular'
 
 }
-console.log(media)
+
+console.log(media.toFixed(2))//serve para limitar o numero de casas decimais.
+
 console.log(conceito)
 
 switch (conceito) {
