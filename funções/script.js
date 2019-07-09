@@ -21,7 +21,7 @@ console.log(resultado01.toFixed(01) + " e " + resultado02.toFixed(01))
 
 
 
-
+// funções anônimas
 var media = function (m1, m2) {
 
     return (m1 + m2) / 2;
