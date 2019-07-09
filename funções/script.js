@@ -14,4 +14,18 @@ function média(n1, n2, n3) {
 var resultado01 = média(7, 9, 10);
 var resultado02 = média(5, 6, 2);
 
-console.log( resultado01.toFixed(01) + " e " + resultado02.toFixed(01))
+console.log(resultado01.toFixed(01) + " e " + resultado02.toFixed(01))
+
+
+
+
+
+
+
+var media = function (m1, m2) {
+
+    return (m1 + m2) / 2;
+
+}
+
+console.log(media)
